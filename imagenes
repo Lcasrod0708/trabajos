@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Imagenes</title>
+</head>
+<body>
+<div id="menu">
+<ul>
+<li> <a href="#futbol">futbol</a></li>
+
+<li> <a href="#baloncesto">baloncesto</a></li>	
+
+<li> <a href="#tenis">tenis</a> </li>
+
+<li> <a href="#atletismo">atletismo</a> </li>
+
+</ul>
+
+</div>
+
+<div id="futbol">
+
+<img scr="images/futbol.jpg" alt= "muestra futbol"style= "width: 600px; height:300px;">
+
+</div>
+
+<div id="baloncesto">
+
+<img scr="images/baloncesto.jpg" alt= "muestra baloncesto">
+
+</div>
+
+<div id="tenis">
+
+<img scr="images/tenis.jpg" alt= "muestra tenis">
+
+</div>
+
+<div id="atletismo">
+
+<img scr="images/atletismo.jpg" alt= "muestra atletismo">
+
+</div>
+
+</body>
+
+</html>
