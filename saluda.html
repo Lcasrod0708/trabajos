@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Saluda</title>
+</head>
+<body>
+    <script>
+        function saluda(){
+          var nombre = document.getElementById("nombre").value;
+         var apellido =document.getElementById("apellido").value;
+          alert("Hola " +  nombre + " " + apellido);
+        }
+    </script>
+   nombre: <input type ="text" id="nombre"> <br>
+    apellido<input type="text"  id="apellido"> <br>
+    <input type="button"  value="saluda" onclick="saluda()">
+</body>
+</html>
