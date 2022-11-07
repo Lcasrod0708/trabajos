@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumar</title>
+</head>
+<body>
+   <script>
+    function sumar(){
+    var numero_1= document.getElementById("numero_1").value;
+    var numero_2= document.getElementById("numero_2").value;
+    var resultado = parseInt(numero_1) + parseInt(numero_2);
+        alert("Tu numero es:"+ resultado);
+    }
+
+        function restar(){
+    var numero_1= document.getElementById("numero_1").value;
+    var numero_2= document.getElementById("numero_2").value;
+    var resultado = parseInt(numero_1) - parseInt(numero_2);
+        alert("Tu numero es:"+ resultado);
+    }
+    function multiplicar(){
+    var numero_1= document.getElementById("numero_1").value;
+    var numero_2= document.getElementById("numero_2").value;
+    var resultado = parseInt(numero_1) * parseInt(numero_2);
+        alert("Tu numero es:"+ resultado);
+    }
+    function dividir(){
+    var numero_1= document.getElementById("numero_1").value;
+    var numero_2= document.getElementById("numero_2").value;
+    var resultado = parseInt(numero_1) / parseInt(numero_2);
+        alert("Tu numero es:"+ resultado);
+    }
+
+   </script> 
+  numero 1 <input type="text" id="numero_1"> <br>
+  numero 2 <input type="text" id="numero_2"> <br>
+   <input type="button" value="Sumar" onclick="sumar()">
+   <input type="button" value="restar" onclick="restar()">
+   <input type="button" value="multiplicar" onclick="multiplicar()">
+   <input type="button" value="dividir" onclick="dividir()">
+</body>
+</html>
